@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Soumil's Pizzeria</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		
+
+		
+		<div class="topnav" id="navbar">
+			<a class="active" href="javascript:void(0)" href="index.html">Home</a>
+			<a href="javascript:void(0)" href="">Menu</a>
+			<a href="javascript:void(0s)" href="">About</a>
+			<a href="javascript:void(0)" href="">Contact</a>
+		</div>
+		
+
+		<div class="header">
+			<h1>Soumil's Pizzeria</h1>
+		</div>
+
+		<div class="icon-bar">
+			<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+			<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+			<a href="#" class="google"><i class="fa fa-google"></i></a> 
+			<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+		  </div>
+
+
+		<div id="menu">
+			<div class="row">
+				<div class="column">
+					<h1>Our Menu</h1>
+					
+					<h5>Margherita <span class="indicator">10% OFF</span></h5>
+					<p>A hugely popular margherita, with a deliciously<br> tangy single cheese topping<br><br><span class="indicator1">$ 5.50</span></p>
+					
+					<h5>Double Cheese Margherita <span class="indicator">10% OFF</span></h5>
+					<p>The ever-popular Margherita - loaded with extra cheese...<br> oodies of it!<br><br><span class="indicator1">$ 7.00</span></p>
+					
+					<h5>Farm House <span class="indicator">10% OFF</span></h5>
+					<p>A pizza that goes ballistic on veggies! <br>Check out this mouth watering overload of crunchy,<br> crisp capsicum, succulent mushrooms and fresh tomatoes<br><br><span class="indicator1">$ 7.50</span></p>
+					
+					<h5>Peppy Paneer <span class="indicator">10% OFF</span></h5>
+					<p>Chunky paneer with crisp capsicum <br>and spicy red pepper - <br>quite a mouthful! <br><br><span class="indicator1">$ 7.50</span>
+					</p>
+					
+					<h5>Mexican Green Wave <span class="indicator">10% OFF</span></h5>
+					<p>A pizza loaded with crunchy onions, <br>crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling <br>of exotic Mexican herbs.<br><br><span class="indicator1"> $ 8.50</span></p>
+				</div>
+				
+
+
+				<div class="column">
+				
+					<img
+					src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Homemade-Pizza_EXPS_HCA20_376_E07_09_2b-2.jpg"
+					alt="image1">
+				
+				</div>
+			</div>
+		</div>
+
+		<div id="about">
+			<div class="row">
+				<div class="column">
+					<img
+					src="https://static.toiimg.com/photo/53110049.cms"
+					alt="image2">
+				</div>
+				<div class="column">
+					<h1>About Us</h1>
+					<h3>Tradition Since 1889</h3>
+
+					<p>
+						Fusion Cafeteria è stata fondata da blabla e ha iniziato nel 1889 con l'obiettivo di aiutare noi stessi, e forse anche tu, a trovare cose deliziose da mangiare. Volevamo tenere traccia di ciò che diversi critici dicevano, sia in francese che in inglese, sulla scena dei ristoranti locali. Volevamo aggiungere i nostri due centesimi. <br> <br> Dopo un decennio e molte centinaia di recensioni di ristoranti (tutti visitati in modo anonimo e pagati per intero), siamo attualmente in pausa e aspettiamo che la pandemia passi. Mentre Parigi fa piccoli passi verso la riapertura, puoi leggere la nostra carrellata di luoghi preferiti.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact">
+			<div class="row">
+				
+					<h1>Contact Us</h1>
+					<p>
+						Continuiamo ad accettare prenotazioni di tour dopo tale data, ma offriremo rimborsi del 100% se non siamo in grado di offrirli a causa di restrizioni di viaggio e di sicurezza. Inviaci un'e-mail con domande a fusion.restaurant@gmail.com e iscriviti alla nostra newsletter per aggiornamenti regolari, fai clic qui per ulteriori informazioni e per trovare il nostro calendario di opzioni fino a dicembre 2020.
+					</p>
+				
+			</div>
+			<div class="column">
+				<form>
+					<input type="text" placeholder="Name">
+					<input type="tel" placeholder="Mobile Number">
+					<input type="email" placeholder="Email Address">
+					<input type="Submit">
+				</form>
+			</div>
+		</div>
+	
+
+		<script>
+
+			window.onscroll = function() {myFunction()};
+			
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+			
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+
+		</script>
+
+	</body>
+</html>

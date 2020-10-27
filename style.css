@@ -25,7 +25,6 @@
     color: #000000;
 }
 
-/* I changed the gradiant a bit because i felt the title is less visible */
 
 .header
 {
@@ -41,7 +40,6 @@
     padding: 30px;
 }
 
-/* Added a color tranformation to title + reduced title padding to center the title a bit more */
 
 @keyframes headeranim {
     0%      {color: #ffffff;}
@@ -151,7 +149,6 @@
     margin: 2px;
 }
 
-/* doing a few minor changes to the form */
 
 input[type="text"],input[type="tel"],input[type="email"]
 {
@@ -196,7 +193,6 @@ input[type="submit"]
     margin-left: 1.6%;
 }
 
-/* sticky navigation bar */
 
 .sticky
 {
